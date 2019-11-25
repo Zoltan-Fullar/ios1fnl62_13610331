@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0459446D2385310C006EDCDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459446C2385310C006EDCDE /* AppDelegate.swift */; };
+		0459446F2385310C006EDCDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459446E2385310C006EDCDE /* SceneDelegate.swift */; };
+		045944712385310C006EDCDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045944702385310C006EDCDE /* ViewController.swift */; };
+		045944742385310C006EDCDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045944722385310C006EDCDE /* Main.storyboard */; };
+		045944762385310D006EDCDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045944752385310D006EDCDE /* Assets.xcassets */; };
+		045944792385310D006EDCDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045944772385310D006EDCDE /* LaunchScreen.storyboard */; };
+		0459448D23853135006EDCDE /* 5 maybe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0459448123853135006EDCDE /* 5 maybe.mp3 */; };
+		0459448E23853135006EDCDE /* 4 Four Leaf Ring.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0459448223853135006EDCDE /* 4 Four Leaf Ring.mp3 */; };
+		0459448F23853135006EDCDE /* 9 Associate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0459448323853135006EDCDE /* 9 Associate.mp3 */; };
+		0459449023853135006EDCDE /* 10 my 10plate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0459448423853135006EDCDE /* 10 my 10plate.mp3 */; };
+		0459449123853135006EDCDE /* 2 Love Two You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0459448523853135006EDCDE /* 2 Love Two You.mp3 */; };
+		0459449223853135006EDCDE /* 12 Sennen Saki mo Zutto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0459448623853135006EDCDE /* 12 Sennen Saki mo Zutto.mp3 */; };
+		0459449323853135006EDCDE /* 3 Mikazuki no veil.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0459448723853135006EDCDE /* 3 Mikazuki no veil.mp3 */; };
+		0459449423853135006EDCDE /* 11 100 Happiness.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0459448823853135006EDCDE /* 11 100 Happiness.mp3 */; };
+		0459449523853135006EDCDE /* 6 June is natural.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0459448923853135006EDCDE /* 6 June is natural.mp3 */; };
+		0459449623853135006EDCDE /* 7 SEPTET for.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0459448A23853135006EDCDE /* 7 SEPTET for.mp3 */; };
+		0459449723853135006EDCDE /* 1 One Dream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0459448B23853135006EDCDE /* 1 One Dream.mp3 */; };
+		0459449823853135006EDCDE /* 8 Up to the Nines.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0459448C23853135006EDCDE /* 8 Up to the Nines.mp3 */; };
+		047818ED238BC1C5008A9E87 /* riku.png in Resources */ = {isa = PBXBuildFile; fileRef = 047818E0238BC1C5008A9E87 /* riku.png */; };
+		047818EE238BC1C5008A9E87 /* sougo.png in Resources */ = {isa = PBXBuildFile; fileRef = 047818E1238BC1C5008A9E87 /* sougo.png */; };
+		047818EF238BC1C5008A9E87 /* momo.png in Resources */ = {isa = PBXBuildFile; fileRef = 047818E2238BC1C5008A9E87 /* momo.png */; };
+		047818F0238BC1C5008A9E87 /* iori.png in Resources */ = {isa = PBXBuildFile; fileRef = 047818E3238BC1C5008A9E87 /* iori.png */; };
+		047818F1238BC1C5008A9E87 /* mitsuki.png in Resources */ = {isa = PBXBuildFile; fileRef = 047818E4238BC1C5008A9E87 /* mitsuki.png */; };
+		047818F2238BC1C5008A9E87 /* gaku.png in Resources */ = {isa = PBXBuildFile; fileRef = 047818E5238BC1C5008A9E87 /* gaku.png */; };
+		047818F3238BC1C5008A9E87 /* nagi.png in Resources */ = {isa = PBXBuildFile; fileRef = 047818E6238BC1C5008A9E87 /* nagi.png */; };
+		047818F4238BC1C5008A9E87 /* yuki.png in Resources */ = {isa = PBXBuildFile; fileRef = 047818E7238BC1C5008A9E87 /* yuki.png */; };
+		047818F5238BC1C5008A9E87 /* ryunosuke.png in Resources */ = {isa = PBXBuildFile; fileRef = 047818E8238BC1C5008A9E87 /* ryunosuke.png */; };
+		047818F6238BC1C5008A9E87 /* yamato.png in Resources */ = {isa = PBXBuildFile; fileRef = 047818E9238BC1C5008A9E87 /* yamato.png */; };
+		047818F7238BC1C5008A9E87 /* tamaki.png in Resources */ = {isa = PBXBuildFile; fileRef = 047818EA238BC1C5008A9E87 /* tamaki.png */; };
+		047818F8238BC1C5008A9E87 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 047818EB238BC1C5008A9E87 /* logo.png */; };
+		047818F9238BC1C5008A9E87 /* tenn.png in Resources */ = {isa = PBXBuildFile; fileRef = 047818EC238BC1C5008A9E87 /* tenn.png */; };
+		047818FB238BC1EB008A9E87 /* rainbow copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047818FA238BC1EB008A9E87 /* rainbow copy.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		045944692385310C006EDCDE /* 12 Song Gift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "12 Song Gift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0459446C2385310C006EDCDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0459446E2385310C006EDCDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		045944702385310C006EDCDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		045944732385310C006EDCDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		045944752385310D006EDCDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		045944782385310D006EDCDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0459447A2385310D006EDCDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0459448123853135006EDCDE /* 5 maybe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "5 maybe.mp3"; sourceTree = "<group>"; };
+		0459448223853135006EDCDE /* 4 Four Leaf Ring.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "4 Four Leaf Ring.mp3"; sourceTree = "<group>"; };
+		0459448323853135006EDCDE /* 9 Associate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "9 Associate.mp3"; sourceTree = "<group>"; };
+		0459448423853135006EDCDE /* 10 my 10plate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10 my 10plate.mp3"; sourceTree = "<group>"; };
+		0459448523853135006EDCDE /* 2 Love Two You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "2 Love Two You.mp3"; sourceTree = "<group>"; };
+		0459448623853135006EDCDE /* 12 Sennen Saki mo Zutto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "12 Sennen Saki mo Zutto.mp3"; sourceTree = "<group>"; };
+		0459448723853135006EDCDE /* 3 Mikazuki no veil.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "3 Mikazuki no veil.mp3"; sourceTree = "<group>"; };
+		0459448823853135006EDCDE /* 11 100 Happiness.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "11 100 Happiness.mp3"; sourceTree = "<group>"; };
+		0459448923853135006EDCDE /* 6 June is natural.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "6 June is natural.mp3"; sourceTree = "<group>"; };
+		0459448A23853135006EDCDE /* 7 SEPTET for.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "7 SEPTET for.mp3"; sourceTree = "<group>"; };
+		0459448B23853135006EDCDE /* 1 One Dream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "1 One Dream.mp3"; sourceTree = "<group>"; };
+		0459448C23853135006EDCDE /* 8 Up to the Nines.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "8 Up to the Nines.mp3"; sourceTree = "<group>"; };
+		047818E0238BC1C5008A9E87 /* riku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riku.png; sourceTree = "<group>"; };
+		047818E1238BC1C5008A9E87 /* sougo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sougo.png; sourceTree = "<group>"; };
+		047818E2238BC1C5008A9E87 /* momo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = momo.png; sourceTree = "<group>"; };
+		047818E3238BC1C5008A9E87 /* iori.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iori.png; sourceTree = "<group>"; };
+		047818E4238BC1C5008A9E87 /* mitsuki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mitsuki.png; sourceTree = "<group>"; };
+		047818E5238BC1C5008A9E87 /* gaku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gaku.png; sourceTree = "<group>"; };
+		047818E6238BC1C5008A9E87 /* nagi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nagi.png; sourceTree = "<group>"; };
+		047818E7238BC1C5008A9E87 /* yuki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuki.png; sourceTree = "<group>"; };
+		047818E8238BC1C5008A9E87 /* ryunosuke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ryunosuke.png; sourceTree = "<group>"; };
+		047818E9238BC1C5008A9E87 /* yamato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yamato.png; sourceTree = "<group>"; };
+		047818EA238BC1C5008A9E87 /* tamaki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tamaki.png; sourceTree = "<group>"; };
+		047818EB238BC1C5008A9E87 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		047818EC238BC1C5008A9E87 /* tenn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tenn.png; sourceTree = "<group>"; };
+		047818FA238BC1EB008A9E87 /* rainbow copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rainbow copy.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		045944662385310C006EDCDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045944602385310C006EDCDE = {
+			isa = PBXGroup;
+			children = (
+				0459446B2385310C006EDCDE /* MusicList */,
+				0459446A2385310C006EDCDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0459446A2385310C006EDCDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				045944692385310C006EDCDE /* 12 Song Gift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0459446B2385310C006EDCDE /* MusicList */ = {
+			isa = PBXGroup;
+			children = (
+				0459446C2385310C006EDCDE /* AppDelegate.swift */,
+				0459446E2385310C006EDCDE /* SceneDelegate.swift */,
+				045944702385310C006EDCDE /* ViewController.swift */,
+				045944722385310C006EDCDE /* Main.storyboard */,
+				045944752385310D006EDCDE /* Assets.xcassets */,
+				045944772385310D006EDCDE /* LaunchScreen.storyboard */,
+				0459447A2385310D006EDCDE /* Info.plist */,
+				047818DF238BC1C5008A9E87 /* image */,
+				0459448023853135006EDCDE /* song */,
+			);
+			path = MusicList;
+			sourceTree = "<group>";
+		};
+		0459448023853135006EDCDE /* song */ = {
+			isa = PBXGroup;
+			children = (
+				0459448123853135006EDCDE /* 5 maybe.mp3 */,
+				0459448223853135006EDCDE /* 4 Four Leaf Ring.mp3 */,
+				0459448323853135006EDCDE /* 9 Associate.mp3 */,
+				0459448423853135006EDCDE /* 10 my 10plate.mp3 */,
+				0459448523853135006EDCDE /* 2 Love Two You.mp3 */,
+				0459448623853135006EDCDE /* 12 Sennen Saki mo Zutto.mp3 */,
+				0459448723853135006EDCDE /* 3 Mikazuki no veil.mp3 */,
+				0459448823853135006EDCDE /* 11 100 Happiness.mp3 */,
+				0459448923853135006EDCDE /* 6 June is natural.mp3 */,
+				0459448A23853135006EDCDE /* 7 SEPTET for.mp3 */,
+				0459448B23853135006EDCDE /* 1 One Dream.mp3 */,
+				0459448C23853135006EDCDE /* 8 Up to the Nines.mp3 */,
+			);
+			path = song;
+			sourceTree = "<group>";
+		};
+		047818DF238BC1C5008A9E87 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				047818E0238BC1C5008A9E87 /* riku.png */,
+				047818E1238BC1C5008A9E87 /* sougo.png */,
+				047818E2238BC1C5008A9E87 /* momo.png */,
+				047818E3238BC1C5008A9E87 /* iori.png */,
+				047818E4238BC1C5008A9E87 /* mitsuki.png */,
+				047818E5238BC1C5008A9E87 /* gaku.png */,
+				047818E6238BC1C5008A9E87 /* nagi.png */,
+				047818E7238BC1C5008A9E87 /* yuki.png */,
+				047818E8238BC1C5008A9E87 /* ryunosuke.png */,
+				047818E9238BC1C5008A9E87 /* yamato.png */,
+				047818EA238BC1C5008A9E87 /* tamaki.png */,
+				047818EB238BC1C5008A9E87 /* logo.png */,
+				047818EC238BC1C5008A9E87 /* tenn.png */,
+				047818FA238BC1EB008A9E87 /* rainbow copy.jpg */,
+			);
+			name = image;
+			path = ../../image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		045944682385310C006EDCDE /* 12 Song Gift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0459447D2385310D006EDCDE /* Build configuration list for PBXNativeTarget "12 Song Gift" */;
+			buildPhases = (
+				045944652385310C006EDCDE /* Sources */,
+				045944662385310C006EDCDE /* Frameworks */,
+				045944672385310C006EDCDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "12 Song Gift";
+			productName = MusicList;
+			productReference = 045944692385310C006EDCDE /* 12 Song Gift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		045944612385310C006EDCDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "ict silpakorn";
+				TargetAttributes = {
+					045944682385310C006EDCDE = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 045944642385310C006EDCDE /* Build configuration list for PBXProject "12 Song Gift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 045944602385310C006EDCDE;
+			productRefGroup = 0459446A2385310C006EDCDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				045944682385310C006EDCDE /* 12 Song Gift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		045944672385310C006EDCDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0459449423853135006EDCDE /* 11 100 Happiness.mp3 in Resources */,
+				0459449023853135006EDCDE /* 10 my 10plate.mp3 in Resources */,
+				047818F8238BC1C5008A9E87 /* logo.png in Resources */,
+				047818F2238BC1C5008A9E87 /* gaku.png in Resources */,
+				047818F9238BC1C5008A9E87 /* tenn.png in Resources */,
+				0459449723853135006EDCDE /* 1 One Dream.mp3 in Resources */,
+				0459448E23853135006EDCDE /* 4 Four Leaf Ring.mp3 in Resources */,
+				045944792385310D006EDCDE /* LaunchScreen.storyboard in Resources */,
+				0459449123853135006EDCDE /* 2 Love Two You.mp3 in Resources */,
+				047818ED238BC1C5008A9E87 /* riku.png in Resources */,
+				047818F6238BC1C5008A9E87 /* yamato.png in Resources */,
+				0459449823853135006EDCDE /* 8 Up to the Nines.mp3 in Resources */,
+				047818F1238BC1C5008A9E87 /* mitsuki.png in Resources */,
+				0459448D23853135006EDCDE /* 5 maybe.mp3 in Resources */,
+				047818F7238BC1C5008A9E87 /* tamaki.png in Resources */,
+				0459449523853135006EDCDE /* 6 June is natural.mp3 in Resources */,
+				047818EE238BC1C5008A9E87 /* sougo.png in Resources */,
+				047818F5238BC1C5008A9E87 /* ryunosuke.png in Resources */,
+				047818EF238BC1C5008A9E87 /* momo.png in Resources */,
+				047818F3238BC1C5008A9E87 /* nagi.png in Resources */,
+				047818F0238BC1C5008A9E87 /* iori.png in Resources */,
+				045944762385310D006EDCDE /* Assets.xcassets in Resources */,
+				0459449223853135006EDCDE /* 12 Sennen Saki mo Zutto.mp3 in Resources */,
+				047818FB238BC1EB008A9E87 /* rainbow copy.jpg in Resources */,
+				045944742385310C006EDCDE /* Main.storyboard in Resources */,
+				0459449323853135006EDCDE /* 3 Mikazuki no veil.mp3 in Resources */,
+				047818F4238BC1C5008A9E87 /* yuki.png in Resources */,
+				0459449623853135006EDCDE /* 7 SEPTET for.mp3 in Resources */,
+				0459448F23853135006EDCDE /* 9 Associate.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		045944652385310C006EDCDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045944712385310C006EDCDE /* ViewController.swift in Sources */,
+				0459446D2385310C006EDCDE /* AppDelegate.swift in Sources */,
+				0459446F2385310C006EDCDE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		045944722385310C006EDCDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045944732385310C006EDCDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		045944772385310D006EDCDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045944782385310D006EDCDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0459447B2385310D006EDCDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0459447C2385310D006EDCDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0459447E2385310D006EDCDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MusicList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = th.ac.su.ict.thaiyuenwong.n.MusicList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0459447F2385310D006EDCDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MusicList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = th.ac.su.ict.thaiyuenwong.n.MusicList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		045944642385310C006EDCDE /* Build configuration list for PBXProject "12 Song Gift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0459447B2385310D006EDCDE /* Debug */,
+				0459447C2385310D006EDCDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0459447D2385310D006EDCDE /* Build configuration list for PBXNativeTarget "12 Song Gift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0459447E2385310D006EDCDE /* Debug */,
+				0459447F2385310D006EDCDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 045944612385310C006EDCDE /* Project object */;
+}
